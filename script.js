@@ -17,7 +17,8 @@ const CANDIDATES = [
   { number: "11", name: "Mascote 11", image: "11_mascote.jpeg", description: "Imagem do decimo primeiro mascote participante." },
   { number: "12", name: "Mascote 12", image: "12_mascote.jpeg", description: "Imagem do decimo segundo participante." },
   { number: "13", name: "Mascote 13", image: "13_mascote.jpeg", description: "Imagem do decimo terceiro participante." },
-  { number: "14", name: "Mascote 14", image: "14_mascote.jpeg", description: "Imagem do decimo quarto participante." }
+  { number: "14", name: "Mascote 14", image: "14_mascote.jpeg", description: "Imagem do decimo quarto participante." },
+  { number: "15", name: "Mascote 15", image: "15_mascote.jpeg", description: "Imagem do decimo quinto participante." }
 ];
 
 const ADMIN_PIN = "1739"; // Altere esta senha antes de utilizar a urna.

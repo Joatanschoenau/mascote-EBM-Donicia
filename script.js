@@ -4,20 +4,20 @@
   Coloque as imagens na pasta "imagens" e informe o caminho no campo image.
 */
 const CANDIDATES = [
-  { number: "01", name: "Mascote 01", image: "imagens/01_mascote.jpeg", description: "Imagem do primeiro mascote participante." },
-  { number: "02", name: "Mascote 02", image: "imagens/02_mascote.jpeg", description: "Imagem do segundo mascote participante." },
-  { number: "03", name: "Mascote 03", image: "imagens/03_mascote.jpeg", description: "Imagem do terceiro mascote participante." },
-  { number: "04", name: "Mascote 04", image: "imagens/04_mascote.jpeg", description: "Imagem do quarto mascote participante." },
-  { number: "05", name: "Mascote 05", image: "imagens/05_mascote.jpeg", description: "Imagem do quinto mascote participante." },
-  { number: "06", name: "Mascote 06", image: "imagens/06_mascote.jpeg", description: "Imagem do sexto mascote participante." },
-  { number: "07", name: "Mascote 07", image: "imagens/07_mascote.jpeg", description: "Imagem do setimo mascote participante." },
-  { number: "08", name: "Mascote 08", image: "imagens/08_mascote.jpeg", description: "Imagem do oitavo mascote participante." },
-  { number: "09", name: "Mascote 09", image: "imagens/09_mascote.jpeg", description: "Imagem do novo mascote participante." },
-  { number: "10", name: "Mascote 10", image: "imagens/10_mascote.jpeg", description: "Imagem do decimo mascote participante." },
-  { number: "11", name: "Mascote 11", image: "imagens/11_mascote.jpeg", description: "Imagem do decimo primeiro mascote participante." },
-  { number: "12", name: "Mascote 12", image: "imagens/12_mascote.jpeg", description: "Imagem do decimo segundo participante." },
-  { number: "13", name: "Mascote 13", image: "imagens/13_mascote.jpeg", description: "Imagem do decimo terceiro participante." },
-  { number: "14", name: "Mascote 14", image: "imagens/14_mascote.jpeg", description: "Imagem do decimo quarto participante." }
+  { number: "01", name: "Mascote 01", image: "imagens/01_mascote.jpg", description: "Imagem do primeiro mascote participante." },
+  { number: "02", name: "Mascote 02", image: "imagens/02_mascote.jpg", description: "Imagem do segundo mascote participante." },
+  { number: "03", name: "Mascote 03", image: "imagens/03_mascote.jpg", description: "Imagem do terceiro mascote participante." },
+  { number: "04", name: "Mascote 04", image: "imagens/04_mascote.jpg", description: "Imagem do quarto mascote participante." },
+  { number: "05", name: "Mascote 05", image: "imagens/05_mascote.jpg", description: "Imagem do quinto mascote participante." },
+  { number: "06", name: "Mascote 06", image: "imagens/06_mascote.jpg", description: "Imagem do sexto mascote participante." },
+  { number: "07", name: "Mascote 07", image: "imagens/07_mascote.jpg", description: "Imagem do setimo mascote participante." },
+  { number: "08", name: "Mascote 08", image: "imagens/08_mascote.jpg", description: "Imagem do oitavo mascote participante." },
+  { number: "09", name: "Mascote 09", image: "imagens/09_mascote.jpg", description: "Imagem do novo mascote participante." },
+  { number: "10", name: "Mascote 10", image: "imagens/10_mascote.jpg", description: "Imagem do decimo mascote participante." },
+  { number: "11", name: "Mascote 11", image: "imagens/11_mascote.jpg", description: "Imagem do decimo primeiro mascote participante." },
+  { number: "12", name: "Mascote 12", image: "imagens/12_mascote.jpg", description: "Imagem do decimo segundo participante." },
+  { number: "13", name: "Mascote 13", image: "imagens/13_mascote.jpg", description: "Imagem do decimo terceiro participante." },
+  { number: "14", name: "Mascote 14", image: "imagens/14_mascote.jpg", description: "Imagem do decimo quarto participante." }
 ];
 
 const ADMIN_PIN = "Adm.123"; // Altere esta senha antes de utilizar a urna.

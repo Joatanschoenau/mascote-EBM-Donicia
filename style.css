@@ -1,0 +1,51 @@
+*{box-sizing:border-box}
+:root{font-family:Arial,Helvetica,sans-serif;color:#172033;background:#eef2f7}
+body{margin:0;min-height:100vh}
+.topo{background:linear-gradient(135deg,#123f78,#1b5b9d);color:#fff;text-align:center;padding:24px 16px 22px;box-shadow:0 3px 12px #0002}
+.school{font-size:14px;font-weight:800;letter-spacing:2px}
+.topo h1{margin:9px 0 7px;font-size:clamp(25px,4vw,38px)}
+.topo p{margin:0;color:#e3edf8}
+main{max-width:1100px;margin:26px auto;padding:0 16px}
+.urna{max-width:650px;margin:0 auto 28px;background:#fff;border:1px solid #d7dfeb;border-radius:16px;padding:22px;box-shadow:0 8px 28px #1b355515}
+.display{background:#e7edf4;border:2px solid #c4cfdb;border-radius:10px;padding:14px;text-align:center;min-height:126px}
+.label{font-size:12px;font-weight:800;letter-spacing:1.5px;color:#4b5b70}
+.typed{font-family:monospace;font-size:52px;font-weight:800;letter-spacing:10px;color:#15243a;margin:3px 0}
+.message{font-size:14px;min-height:20px;color:#35465c}
+.preview{margin:18px auto 8px;text-align:center;max-width:430px}
+.preview h2{font-size:20px;margin:0 0 10px;color:#123f78}
+.preview img{display:block;width:100%;max-height:270px;object-fit:contain;border:1px solid #d8e0eb;border-radius:10px;background:#f5f7fa}
+.preview p{color:#536174;font-size:14px}
+.hidden{display:none!important}
+.keypad{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;max-width:390px;margin:20px auto}
+.keypad button{height:57px;border:1px solid #bdc9d8;border-radius:8px;background:#f8fafc;color:#172033;font-size:24px;font-weight:700;cursor:pointer;box-shadow:0 2px 0 #d5dde7}
+button:hover{filter:brightness(.97)}button:active{transform:translateY(1px)}button:disabled{opacity:.45;cursor:not-allowed}
+.keypad .clear{font-size:14px;background:#f5d6d6;color:#852323;border-color:#e9baba}
+.keypad .white{font-size:14px;background:#fff;border-color:#aeb9c8}
+.actions{display:flex;justify-content:center;gap:12px;margin:8px auto}
+.actions button{min-width:145px;padding:15px 18px;border:0;border-radius:7px;color:#fff;font-weight:800;letter-spacing:.5px;cursor:pointer}
+.confirm{background:#16834b}.cancel{background:#bd3434}
+.hint,.muted{color:#64748b;font-size:13px;text-align:center}
+.closed{margin-top:14px;padding:12px;background:#ffe4e4;color:#a11;font-weight:900;text-align:center;border-radius:8px}
+.list-section{margin:32px auto;max-width:900px}
+.list-section h2{text-align:center;color:#123f78}
+.candidate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px}
+.candidate-card{background:#fff;border:1px solid #d8e0eb;border-radius:11px;padding:12px;text-align:center;box-shadow:0 3px 12px #1b355510}
+.candidate-card .number{display:inline-block;background:#123f78;color:#fff;padding:5px 12px;border-radius:20px;font-weight:800}
+.candidate-card img{display:block;width:100%;height:125px;object-fit:contain;margin:9px 0;background:#f2f5f9;border-radius:7px}
+.candidate-card h3{font-size:15px;margin:5px 0}
+.admin{max-width:900px;margin:30px auto;background:#fff;border:1px solid #d8e0eb;border-radius:10px;padding:16px}
+.admin summary{font-weight:800;color:#123f78;cursor:pointer}
+.admin-login{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:15px 0}
+.admin-login label{font-weight:700}
+.admin-login input{padding:10px;border:1px solid #cbd5e1;border-radius:6px;width:160px}
+.admin-login button,.admin-actions button{padding:10px 14px;border:0;border-radius:6px;background:#245c94;color:#fff;font-weight:700;cursor:pointer}
+.admin-actions{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
+.admin-actions .danger{background:#b83232}
+.small{font-size:12px}
+#results{overflow-x:auto;margin-top:18px}
+#results table{border-collapse:collapse;width:100%;min-width:420px}
+#results th,#results td{padding:10px;border:1px solid #d5deea;text-align:left}
+#results th{background:#eaf0f7}
+footer{text-align:center;padding:22px 12px;background:#123f78;color:#e6edf7;font-size:13px;margin-top:40px}
+@media(max-width:520px){.urna{padding:14px}.keypad button{height:52px}.actions button{min-width:0;flex:1}.admin-login{align-items:stretch}.admin-login input{width:100%}}
+@media print{body{background:#fff}.topo,.urna,.list-section,footer,.admin summary,.admin-login,.admin-actions{display:none!important}.admin{border:0}.admin #results{display:block!important}#results table{font-size:12px}}

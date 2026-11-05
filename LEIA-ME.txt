@@ -1,0 +1,25 @@
+VOTAÇÃO DO MASCOTE – EBM DONÍCIA MARIA DA COSTA
+
+COMO ABRIR
+1. Extraia o ZIP para uma pasta no computador.
+2. Abra a pasta e dê dois cliques em index.html.
+3. O sistema abre no navegador (Chrome, Edge ou Firefox).
+
+COMO COLOCAR AS IMAGENS DOS MASCOTES
+1. Coloque as imagens JPG na pasta imagens.
+2. Use os nomes:
+   01_mascote.jpg
+   02_mascote.jpg
+   03_mascote.jpg
+   04_mascote.jpg
+   05_mascote.jpg
+3. Se houver mais mascotes, cadastre-os no início de script.js, seguindo o mesmo padrão.
+
+ADMINISTRAÇÃO
+- Senha inicial: 1234.
+- Altere ADMIN_PIN no começo de script.js antes de utilizar.
+- Entre na Área administrativa para abrir/encerrar, consultar resultados, imprimir/salvar em PDF e zerar votos.
+
+IMPORTANTE
+Esta versão mantém a estrutura da urna do Grêmio enviada como referência. Os votos ficam no armazenamento local do navegador e neste computador. Não use limpeza de dados do navegador durante a votação.
+Para votação oficial com vários dispositivos compartilhando a mesma apuração, será necessário um servidor com banco de dados.

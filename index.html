@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123f78">
+  <title>Votação Mascote - EBM Donícia Maria da Costa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <div class="school">EBM DONÍCIA MARIA DA COSTA</div>
+  <h1>VOTAÇÃO DO MASCOTE</h1>
+  <p>Urna eletrônica • Digite o número do mascote e confirme seu voto</p>
+</header>
+
+<main>
+  <section class="urna">
+    <div class="display">
+      <div class="label">NÚMERO DIGITADO</div>
+      <div id="typed" class="typed" aria-live="polite">__</div>
+      <div id="message" class="message">Digite o número do mascote para visualizar a imagem.</div>
+    </div>
+
+    <div id="candidatePreview" class="preview hidden">
+      <h2 id="candidateTitle"></h2>
+      <img id="candidateImage" alt="Imagem do mascote selecionado">
+      <p id="candidateDescription"></p>
+    </div>
+
+    <div class="keypad" aria-label="Teclado numérico">
+      <button data-key="1">1</button><button data-key="2">2</button><button data-key="3">3</button>
+      <button data-key="4">4</button><button data-key="5">5</button><button data-key="6">6</button>
+      <button data-key="7">7</button><button data-key="8">8</button><button data-key="9">9</button>
+      <button class="clear" id="clear">CORRIGE</button><button data-key="0">0</button><button class="white" id="blank">BRANCO</button>
+    </div>
+
+    <div class="actions">
+      <button class="confirm" id="confirm">CONFIRMA</button>
+      <button class="cancel" id="cancel">CANCELA</button>
+    </div>
+    <p class="hint">Confira a imagem do mascote antes de confirmar.</p>
+    <div id="closedNotice" class="closed hidden">VOTAÇÃO ENCERRADA</div>
+  </section>
+
+  <section class="list-section">
+    <h2>Mascotes participantes</h2>
+    <p class="muted">Os números começam em 01. Substitua as imagens de exemplo pelas imagens oficiais dos mascotes.</p>
+    <div class="candidate-grid" id="candidateGrid"></div>
+  </section>
+
+  <details class="admin">
+    <summary>Área administrativa – abrir/encerrar votação e consultar resultados</summary>
+    <p class="muted">Os votos ficam armazenados neste navegador/dispositivo. Para usar vários computadores ou tablets com uma única apuração, será necessário instalar uma versão com servidor e banco de dados.</p>
+    <div class="admin-login">
+      <label for="adminPin">Senha administrativa</label>
+      <input id="adminPin" type="password" inputmode="numeric" placeholder="Digite a senha">
+      <button id="unlockAdmin">ACESSAR</button>
+      <span class="muted small"></span>
+    </div>
+    <div id="adminPanel" class="hidden">
+      <div class="admin-actions">
+        <button id="openPoll">ABRIR VOTAÇÃO</button>
+        <button id="closePoll" class="danger">ENCERRAR VOTAÇÃO</button>
+        <button id="showResults">VER RESULTADO</button>
+        <button id="printResults">IMPRIMIR / SALVAR PDF</button>
+        <button id="resetVotes" class="danger">ZERAR VOTOS</button>
+      </div>
+      <div id="results" aria-live="polite"></div>
+    </div>
+  </details>
+</main>
+
+<footer>EBM Donícia Maria da Costa • Votação do Mascote<br>Desenvolvido por Professor Joatan Augusto Schoenau</footer>
+<script src="script.js"></script>
+</body>
+</html>

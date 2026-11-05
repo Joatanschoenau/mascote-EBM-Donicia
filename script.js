@@ -20,7 +20,7 @@ const CANDIDATES = [
   { number: "14", name: "Mascote 14", image: "14_mascote.jpeg", description: "Imagem do decimo quarto participante." }
 ];
 
-const ADMIN_PIN = "Adm.123"; // Altere esta senha antes de utilizar a urna.
+const ADMIN_PIN = "1739"; // Altere esta senha antes de utilizar a urna.
 const VOTES_KEY = "ebm_mascote_votes_v1";
 const POLL_KEY = "ebm_mascote_poll_open_v1";
 
